@@ -1,5 +1,7 @@
 # AquaMate: Freshwater Fish Disease Classification
 
+![AquaMate Logo](assets/logo.png)
+
 Welcome to AquaMate, an application designed to classify freshwater fish diseases using advanced deep learning techniques. This repository contains the complete codebase for the AquaMate application, leveraging Convolutional Neural Networks (CNN) to accurately identify various fish diseases. The dataset used is sourced from Kaggle's "Freshwater Fish Disease Aquaculture in South Asia."
 
 ## Overview
