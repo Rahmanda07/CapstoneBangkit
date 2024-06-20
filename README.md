@@ -1,4 +1,4 @@
-# AquaMate: Freshwater Fish Disease Classification
+# Capstone Team C241-PS070 [AquaMate]
 
 <img src="assets/aqua_mate.png" alt="AquaMate Logo" width="200"/>
 
