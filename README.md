@@ -101,17 +101,38 @@ Ensure you have the necessary libraries installed:
 pip install tensorflow kaggle matplotlib
 ```
 
+### Running on Google Colab
+
+To run the project on Google Colab, follow these steps:
+
+1. **Set Up Kaggle API**:
+    - Upload your `kaggle.json` file to the Colab environment.
+    - Execute the following commands to set up Kaggle and download the dataset:
+    ```python
+    from google.colab import drive
+    drive.mount('/content/drive')
+
+    !pip install -q kaggle
+    !mkdir ~/.kaggle
+    !cp /content/drive/MyDrive/kaggle.json ~/.kaggle/
+    !chmod 600 ~/.kaggle/kaggle.json
+    !kaggle datasets download -d subirbiswas19/freshwater-fish-disease-aquaculture-in-south-asia
+    !unzip freshwater-fish-disease-aquaculture-in-south-asia.zip -d /content/data/
+    ```
+
+2. **Open the Notebook**:
+    - Open `Aquamate_EfficientNetB1.ipynb` in Google Colab.
+
+3. **Run the Notebook**:
+    - Execute each cell in the notebook sequentially. This will preprocess the data, train the model, and save the results.
+
 ### Running the Training Script
 
-Execute the script to preprocess data, train the model, and save the results:
+Alternatively, you can run the training script directly if you have set up your local environment:
 
-```bash
+```python
 python train_model.py
 ```
-
-### Accessing the Model
-
-The trained model and weights are stored in `model_files.zip`. Extract the contents to use the model for inference or further training.
 
 ## Conclusion
 
