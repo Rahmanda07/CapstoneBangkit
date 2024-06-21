@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346317340165",
+    "project_id": "capstoneprojectaquamate",
+    "storage_bucket": "capstoneprojectaquamate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346317340165:android:bcf043c58bbada3d30266c",
+        "android_client_info": {
+          "package_name": "com.capstone.aquamate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuXvxdJaKdVtLhTdEul_7xuSvv2k6QiAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
